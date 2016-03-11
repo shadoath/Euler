@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'pry'
+gem 'rspec'
+gem 'spring'
+gem 'spring-commands-rspec'
