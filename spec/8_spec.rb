@@ -3,9 +3,10 @@ require 'pry'
 RSpec.describe Number8 do
 
   it "gets example to validate" do
-    n = Number8.new
-    expect(n.check_for_count_digit(4)).to be 5832
-    expect(n.check_for_count_digit(13)).to be 23514624000
+    four_count = Number8.new(4)
+    expect(four_count.check_for_count_digit).to be 5832
+    eight_count = Number8.new(13)
+    expect(eight_count.check_for_count_digit).to be 23514624000
   end
 
 end
