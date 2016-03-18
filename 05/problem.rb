@@ -1,7 +1,5 @@
 class Number5
 
-  require 'pry'
-
   def initialize(num, range)
     @number = num
     @range = (range).to_a
@@ -22,7 +20,7 @@ class Number5
     @number
   end
 end
-
+# omg this is nifty
 # This does not require programming at all.
 # Compute the prime factorization of each number from 1 to 20, and multiply the greatest power of each prime together:
 

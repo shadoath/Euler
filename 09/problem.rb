@@ -46,7 +46,6 @@ class Number9
 
   def check_p_triangle
     if @a**2 + @b**2 == @c**2 && @a+@b+@c == @count
-      puts "SOLD: #{@a} + #{@b} = #{@c}"
       @looking = false
     end
   end

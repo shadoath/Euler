@@ -10,9 +10,6 @@ class Number30
     total = num.to_s.chars.map do |num|
       num.to_i**power
     end.reduce(:+)
-    if total == num
-      puts "n:#{num} => t:#{total}"
-    end
     total == num
   end
 
